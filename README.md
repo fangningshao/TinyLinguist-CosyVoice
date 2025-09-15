@@ -10,3 +10,13 @@ A tiny frontend of CosyVoice2 TTS models featuring: Zero-Shot Voice Cloning, Bat
 1. **Zero-shot Voice Cloning**: Use base or finetuned CosyVoice2 model or direct zero-shot voice cloning.
 2. **Batch Inference**: batch process a file of multiple lines, generate a wav file of each line, and download the compressed zipfile from the hosted server.
 3. **Model management**: can host multiple LLM models and Flow models in the same interface.
+
+## Usage
+
+First install your CosyVoice2 models and environments, then run the following to host up a server:
+
+```bash
+python main.py
+```
+
+You can modify `config.py` to manage models to host, as well as preset audio prompts in your asset directory.
